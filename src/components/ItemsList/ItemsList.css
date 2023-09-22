@@ -1,0 +1,54 @@
+.products-wrapper {
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.34);
+    max-width: 80rem;
+    min-height: 40rem;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.product-box {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 8em;
+    height: 0%;
+    background-color: #242424;
+    box-shadow: 2px 4px 5px rgb(6, 8, 7);
+    border: 1px solid rgb(69, 70, 70);
+    padding: 22px;
+    margin-top: 15px;
+    padding-top: 0;
+    transition: 0.2s all ease-in;
+}
+.product-box:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 15px beige;
+    border: 1px solid beige;
+}
+.in-list {
+    background-color: rgba(0, 255, 123, 0.436);
+    border: 1px solid rgba(0, 255, 123, 0.436);
+    box-shadow: 2px 4px 15px rgb(6, 8, 7);
+}
+.animate {
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-name: animate-move-in;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate-move-in {
+    0% {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}

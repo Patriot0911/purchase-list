@@ -1,0 +1,45 @@
+.purchases-wraper {
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    margin: 25px;
+    padding: 15px;
+    width: 80rem;
+    height: 12rem;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.582);
+}
+.info-card {
+    padding: 15px;
+    width: 9rem;
+    margin-left: 1rem;
+    background-color: rgba(127, 255, 212, 0.407);
+    border: 1px rgba(0, 0, 0, 0.275) solid;
+    border-radius: 5px;
+}
+.info-card h2 {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 125px;
+}
+.info-card span {
+    font-size: 15px;
+}
+h1 {
+    flex-grow: 1;
+}
+.label-wraper {
+    margin: auto;
+    position: relative;
+    font-size: medium;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+    max-width: 55px;
+    background-color: rgb(44, 61, 76);
+}
+.editable-container {
+    position: relative;
+    max-width: 170px;
+}
